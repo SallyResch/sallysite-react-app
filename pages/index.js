@@ -7,11 +7,12 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <h1 className="title">
-        Read{' '}
-        <Link href="/posts/first-post">
-          <a>This page!</a>
-        </Link>
+        Welcome{' '}
       </h1>
+      <Link href="/posts/first-post">
+        <a>My first post</a>
+      </Link>
+
     </div>
   )
 }
