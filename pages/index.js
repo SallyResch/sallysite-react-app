@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import Link from 'next/link'
+
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
@@ -9,10 +9,6 @@ export default function Home() {
       <h1 className="title">
         Welcome{' '}
       </h1>
-      <Link href="/posts/first-post">
-        <a>My first post</a>
-      </Link>
-
     </div>
   )
 }
